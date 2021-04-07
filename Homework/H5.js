@@ -162,6 +162,47 @@
 // audi.addDriver([{name:'Vikky',age: 22}])
 // console.log(audi);
 
+// class Cinderella{
+//     constructor(name,age,legSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.legSize = legSize;
+//     }
+// }
+// class Prince {
+//     constructor(name,age,foundShoe) {
+//         this.name = name;
+//         this.age = age;
+//         this.foundShoe = foundShoe;
+//     }
+//     findCinderellas(array){
+//         let find = 0;
+//         for (const arrayElement of array) {
+//             if(arrayElement.foundShoe === arrayElement.legSize){
+//                   find = arrayElement;
+//             }
+//
+//         }
+//         if(find){
+//             console.log('Congrats')
+//         }else{
+//             console.log('Keep searching')
+//         }
+//     }
+// }
+// let cinderella1 = new Cinderella('Vikky',20,37);
+// let cinderella2 = new Cinderella('Iva',22,36);
+// let cinderella3 = new Cinderella('Kate',21,35);
+// let cinderella4 = new Cinderella('Kris',23,35.5);
+// let cinderella5 = new Cinderella('Eva',22,37.5);
+// let cinderella6 = new Cinderella('Gala',25,38);
+// let cinderella7 = new Cinderella('Nata',24,38.5);
+// let cinderella8 = new Cinderella('Olya',20,36.5);
+// let cinderella9 = new Cinderella('Lesia',22,37.9);
+// let cinderella10 = new Cinderella('Julia',21,39);
+
+// let arr = [cinderella1,cinderella2,cinderella3,cinderella4,
+// cinderella5,cinderella6,cinderella7,cinderella8,cinderella9,cinderella10]
 
 
 
