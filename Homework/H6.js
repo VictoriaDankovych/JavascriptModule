@@ -374,7 +374,7 @@ let cars = [toyota,bmw,subaru,opel,mers,lambo,citroen,kia];
 console.log(cars);
 
 
-for (let i = 0; i < cars.length; i+2) {
+for (let i = 0; i < cars.length; i=i+2) {
     cars[i].repair();
     cars[i].newPrice()
 
